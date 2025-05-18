@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Artikel Kesehatan - Sehat Bersama</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9fafb;
+      margin: 0;
+      padding: 0 20px 40px;
+      color: #333;
+      line-height: 1.6;
+    }
+    nav {
+      background-color: #2e7d32;
+      padding: 12px 0;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 8px 15px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+    nav ul li a:hover,
+    nav ul li a:focus {
+      background-color: #145214;
+      outline: none;
+    }
+
+    .content {
+      max-width: 800px;
+      background: white;
+      margin: 40px auto 0;
+      padding: 30px 40px;
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .artikel-image {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      margin: 0 auto 30px auto;
+      box-shadow: 0 8px 20px rgba(46, 125, 50, 0.2);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .artikel-image:hover {
+      transform: scale(1.03);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 18px;
+      font-size: 1.1rem;
+      position: relative;
+      padding-left: 25px;
+      cursor: default;
+      transition: background-color 0.25s ease;
+      border-radius: 8px;
+    }
+    ul li:hover {
+      background-color: #e6f4ea;
+    }
+    ul li strong {
+      color: #2e7d32;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background-color: #2e7d32;
+      color: white;
+      font-weight: 600;
+      margin-top: 60px;
+      border-radius: 0 0 14px 14px;
+    }
+
+    @media (max-width: 600px) {
+      .content {
+        padding: 20px;
+        margin: 30px 10px 0;
+      }
+      nav ul {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html" aria-current="page">Artikel</a></li>
+      <li><a href="contact.html">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <section class="content">
+    <img src="artikel.png" alt="Buah dan Sayur Segar" class="artikel-image" />
+    <ul>
+      <li><strong>Makanan Sehat:</strong> Konsumsi buah dan sayuran segar setiap hari untuk kesehatan optimal. Makanan tinggi serat dan rendah lemak dapat membantu menjaga berat badan dan mengurangi risiko penyakit kronis seperti diabetes dan hipertensi. Pastikan juga asupan air putih yang cukup agar tubuh tetap terhidrasi dengan baik.</li>
+      <li><strong>Aktivitas Fisik:</strong> Rutin berolahraga minimal 30 menit sehari dapat meningkatkan daya tahan tubuh, menjaga kesehatan jantung, serta membantu mengurangi stres. Aktivitas seperti jalan kaki, bersepeda, atau yoga bisa menjadi pilihan yang menyenangkan dan bermanfaat.</li>
+      <li><strong>Kesehatan Mental:</strong> Luangkan waktu untuk relaksasi dan menjaga keseimbangan pikiran. Melakukan meditasi, menulis jurnal, atau berbicara dengan orang terdekat bisa membantu mengurangi tekanan emosional. Jangan ragu untuk mencari bantuan profesional jika merasa kewalahan secara mental atau emosional.</li>
+      <li><strong>Tidur Berkualitas:</strong> Tidur yang cukup dan berkualitas sangat penting bagi kesehatan tubuh dan pikiran. Usahakan tidur 7-8 jam setiap malam dengan jadwal yang teratur. Hindari penggunaan gadget sebelum tidur agar kualitas tidur tidak terganggu.</li>
+      <li><strong>Hindari Kebiasaan Buruk:</strong> Menghindari merokok, konsumsi alkohol berlebihan, dan pola makan tidak teratur sangat penting untuk menjaga kesehatan jangka panjang. Gantilah kebiasaan buruk dengan gaya hidup yang lebih aktif dan positif.</li>
+    </ul>
+
+    <h2 style="margin-top: 40px; color: #2e7d32;">Layanan dan Informasi Tambahan</h2>
+    <ul>
+      <li><strong>Artikel Tips Hidup Sehat:</strong> Temukan berbagai artikel terbaru yang membahas cara menjaga kesehatan sehari-hari, pola makan seimbang, dan gaya hidup aktif yang mendukung kebugaran tubuh dan pikiran.</li>
+      <li><strong>Konsultasi Online:</strong> Dapatkan akses mudah ke layanan konsultasi kesehatan daring dengan dokter umum maupun spesialis untuk mendapatkan arahan medis tanpa harus keluar rumah.</li>
+      <li><strong>Direktori Dokter atau Klinik:</strong> Jelajahi daftar lengkap dokter dan fasilitas kesehatan terpercaya di sekitar Anda. Informasi meliputi lokasi, jam operasional, dan layanan yang tersedia.</li>
+      <li><strong>Informasi Penyakit dan Obat:</strong> Pelajari gejala, penyebab, serta cara pengobatan berbagai penyakit umum. Disediakan pula informasi penggunaan obat secara aman dan efektif.</li>
+    </ul>
+  </section>
+
+  <footer>&copy; 2025 Sehat Bersama</footer>
+</body>
+</html>

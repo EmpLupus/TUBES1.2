@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tentang Kami - Sehat Bersama</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f8ff;
+      color: #333;
+      margin: 0; padding: 0;
+    }
+    nav ul {
+      background-color:#28a745;
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      list-style: none;
+      margin: 0;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 6px 12px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    nav ul li a:hover {
+      background-color: #28a745;
+    }
+    .content {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px 40px;
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+    .content h2 {
+      color: #28a745;
+      margin-bottom: 15px;
+      font-size: 2.5rem;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .content p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      text-align: center;
+      margin-bottom: 30px;
+      color: #555;
+    }
+    .team {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .member {
+      background: #e0f2f1;
+      border-radius: 12px;
+      padding: 20px;
+      width: 220px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .member:hover {
+      transform: translateY(-8px);
+    }
+    .member img {
+      width: 100px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .member h3 {
+      margin: 0 0 10px 0;
+      color: #28a745;
+      font-size: 1.2rem;
+    }
+    .member p {
+      font-size: 0.95rem;
+      color: #28a745;
+    }
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background-color: #28a745;
+      color: white;
+      font-weight: 600;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" aria-current="page">About</a></li>
+      <li><a href="services.html">Artikel</a></li>
+      <li><a href="contact.html">Kontak</a></li>
+      <li><a href="sosial media.html">Sosial Media</a></li>
+    </ul>
+  </nav>
+
+  <section class="content">
+    <h2>Tentang Kami</h2>
+    <p>Kami adalah tim yang berdedikasi untuk memberikan informasi terpercaya seputar dunia kesehatan dan kebugaran.  
+       Misi kami adalah membantu Anda menjalani hidup yang lebih sehat dan bahagia dengan konten yang mudah dipahami dan terpercaya.</p>
+    
+    <div class="team">
+      <div class="member">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Foto Maria, Ahli Nutrisi" />
+        <h3>Maria Dewi</h3>
+        <p>Ahli Nutrisi yang berpengalaman, siap membantu Anda dengan tips gizi dan pola makan sehat.</p>
+      </div>
+      <div class="member">
+        <img src="https://randomuser.me/api/portraits/men/43.jpg" alt="Foto Andi, Pelatih Kebugaran" />
+        <h3>Andi Saputra</h3>
+        <p>Pelatih kebugaran profesional yang fokus pada gaya hidup aktif dan olahraga yang menyenangkan.</p>
+      </div>
+      <div class="member">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Foto Sari, Penulis Artikel Kesehatan" />
+        <h3>Sari Lestari</h3>
+        <p>Penulis yang berdedikasi membuat konten kesehatan yang mudah dipahami dan inspiratif.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>&copy; 2025 Sehat Bersama - Hidup Sehat, Hidup Bahagia</footer>
+</body>
+</html>

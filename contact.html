@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontak - Sehat Bersama</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5fdf7;
+      color: #333;
+    }
+
+    nav {
+      background-color: #2e7d32;
+      padding: 15px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 16px;
+      border-radius: 6px;
+      transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #1b5e20;
+    }
+
+    .content {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .content h2 {
+      text-align: center;
+      color: #2e7d32;
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+
+    .contact-info {
+      font-size: 1.1rem;
+    }
+
+    .contact-info p {
+      margin: 15px 0;
+      padding-left: 40px;
+      position: relative;
+    }
+
+    .contact-info p::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 4px;
+      width: 24px;
+      height: 24px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .contact-info p:nth-child(1)::before {
+      background-image: url('data:image/svg+xml;utf8,<svg fill="green" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4a2 2 0 00-2 2v1.17l10 6.11 10-6.11V6a2 2 0 00-2-2z"/><path d="M22 8.38l-10 6.11-10-6.11V18a2 2 0 002 2h16a2 2 0 002-2V8.38z"/></svg>');
+    }
+
+    .contact-info p:nth-child(2)::before {
+      background-image: url('data:image/svg+xml;utf8,<svg fill="green" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79a15.91 15.91 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21 11.72 11.72 0 003.7.59 1 1 0 011 1V20a1 1 0 01-1 1A16 16 0 013 5a1 1 0 011-1h3.5a1 1 0 011 1 11.72 11.72 0 00.59 3.7 1 1 0 01-.21 1.11z"/></svg>');
+    }
+
+    .contact-info p:nth-child(3)::before {
+      background-image: url('data:image/svg+xml;utf8,<svg fill="green" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9a5 5 0 1110 0c0 2.6-3 6.94-5 9.88C10 15.94 7 11.6 7 9z"/><circle cx="12" cy="9" r="2.5"/></svg>');
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2e7d32;
+      color: white;
+      font-weight: bold;
+      margin-top: 40px;
+      border-radius: 0 0 12px 12px;
+    }
+
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .content {
+        margin: 30px 20px;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Artikel</a></li>
+      <li><a href="contact.html" aria-current="page">Kontak</a></li>
+      <li><a href="sosial media.html">Sosial Media</a></li>
+    </ul>
+  </nav>
+
+  <section class="content">
+    <h2>Kontak Kami</h2>
+    <div class="contact-info">
+      <p>Email: info@sehatbersama.id</p>
+      <p>Telepon: +62 812 3456 7890</p>
+      <p>Alamat: Jl. UNIB Belakang, Bengkulu</p>
+    </div>
+  </section>
+
+  <footer>&copy; 2025 Sehat Bersama</footer>
+
+</body>
+</html>
